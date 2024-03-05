@@ -1,8 +1,9 @@
 package Lab1.task4;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class DummyCalculator {
-    public DummyCalculator() {
-    }
 
     public void calculate(String... args) {
         String[] var2 = args;
