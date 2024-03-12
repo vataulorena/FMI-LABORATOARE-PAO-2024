@@ -4,7 +4,7 @@ class Romb extends Paralelogram {
     private int diag1, diag2;
 
     public Romb(int latura, int diag1, int diag2) {
-        super(latura, latura, 0); // Unghiul nu este necesar pentru calculul ariei unui romb
+        super(latura, latura, 0);
         this.diag1 = diag1;
         this.diag2 = diag2;
     }
